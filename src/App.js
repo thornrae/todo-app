@@ -2,7 +2,7 @@
 function App() {
   return (
     <div className="App">
-      <p>this will be a todo app</p>
+      <p>hmmm</p>
     </div>
   );
 }
