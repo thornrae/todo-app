@@ -1,4 +1,4 @@
-[deployed app](https://practical-wright-220ed6.netlify.app)
+[deployed app](https://tt-todoapp.netlify.app/)
 
 <!-- # Getting Started with Create React App
 
