@@ -3,14 +3,14 @@ import {useState} from 'react';
 const useForm = (callback) => {
   const [values, setValues] = useState({});
 
-  const handleInputChange = (e) => {
+  const handleInputChange = e => {
     e.persist();
     let name = e.target.name;
     let value = e.target.value;
     setValues( {...values, [name]: value} );
   };
 
-  const handleSubmit = (e) => {
+  const handleSubmit = e => {
     e.preventDefault();
     callback(values);
   }
